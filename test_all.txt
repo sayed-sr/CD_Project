@@ -1,0 +1,55 @@
+// ============================================
+// MiniLang Test File
+// Tests: int, float, if/else, while, TAC output
+// ============================================
+
+// --- Variable declarations ---
+int a;
+int b;
+int c;
+float x;
+float y;
+
+// --- Assignments ---
+a = 5;
+b = 10;
+x = 3.14;
+y = 2.0;
+
+// --- Arithmetic ---
+c = a + b;
+print(c);
+
+// --- Float arithmetic ---
+y = x * y;
+print(y);
+
+// --- If / Else ---
+if (a < b) {
+    print(a);
+} else {
+    print(b);
+}
+
+// --- Nested if ---
+if (c >= 15) {
+    print(c);
+}
+
+// --- While loop ---
+int i;
+i = 0;
+while (i < 3) {
+    print(i);
+    i = i + 1;
+}
+
+// --- Compound expression ---
+int result;
+result = a * 2 + b / 5 - 1;
+print(result);
+
+// --- Division ---
+int d;
+d = b / a;
+print(d);
